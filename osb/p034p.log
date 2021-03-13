@@ -1,0 +1,1173 @@
+.COMPILE EDDT=EDDT.MAC+DDT.MAC
+MACRO: EDDT
+?Test at TSTSWK fails for KL with MOS memory or KL with MCA-25
+[Need to use CVTBDO EXTEND instruction to test KL vs KS]
+[TINSTR routine does not check for type-ahead on KL]
+
+.COMPILE @MONKI
+MACRO: COMTXT
+XKI-P034/P
+9-9-85
+M01552 (id)
+512 = CPU serial number
+60 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+MACRO: SETETY
+MACRO: FILUUO
+MACRO: FILIO
+MACRO: FRMSER
+MACRO: PCBIO
+MACRO: SWAMP
+MACRO: MAPIO
+convert KCREAT code at CREAT2 to use LOKHPW routine.
+MACRO: CLUBS
+MACRO: FILFND
+MACRO: FILRIB
+MACRO: BPXKON
+MACRO: CLOCK1
+MACRO: COMCON
+MACRO: CORE1
+MACRO: ERRCON
+[DIETYO+3: Cannot use CCTYO because CTY has no LDB]
+MACRO: JOBDAT
+MACRO: ACTSER
+MACRO: PICON
+[Need more work at EXCPAR - typeout info on EXEC parity error]
+MACRO: FTASER
+MACRO: LPTSER
+MACRO: PTPSER
+MACRO: PTRSER
+MACRO: CDRSER
+MACRO: PLTSER
+MACRO: RMTSER
+MACRO: SCHED1
+MACRO: SCNSER
+[TTYBPN needs filter to skip multi-word IRING messages to continue]
+[Need to make SVPPC tell the BASE to wait on KI]
+[Need to implement FRCSET and make CCTYO work for CTY's LDB]
+[Need to equate CONMSG with SEND ALL]
+MACRO: CTYSIM
+MACRO: SEGCON
+MACRO: TMPUUO
+MACRO: SIMIO
+MACRO: IOCSS
+MACRO: UUOCON
+MACRO: PATCH
+MACRO: DEBUG
+MACRO: ONCE
+MACRO: ONCDSK
+MACRO: REFSTR
+
+.COMPILE @MONKL
+MACRO: COMTXT
+XKL-P034/P
+9-9-85
+M01553 (id)
+1024 = CPU serial number
+110 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+MACRO: SETETY
+MACRO: FILUUO
+MACRO: FILIO
+MACRO: FRMSER
+MACRO: PCBIO
+MACRO: SWAMP
+MACRO: MAPIO
+convert KCREAT code at CREAT2 to use LOKHPW routine.
+MACRO: CLUBS
+MACRO: FILFND
+MACRO: FILRIB
+MACRO: BPXKON
+MACRO: CLOCK1
+MACRO: COMCON
+MACRO: CORE1
+MACRO: ERRCON
+[DIETYO+3: Cannot use CCTYO because CTY has no LDB]
+MACRO: JOBDAT
+MACRO: ACTSER
+MACRO: PICON
+[Need more work at EXCPAR - typeout info on EXEC parity error]
+MACRO: FTASER
+MACRO: LPTSER
+MACRO: PTPSER
+MACRO: PTRSER
+MACRO: CDRSER
+MACRO: PLTSER
+MACRO: SCHED1
+MACRO: SCNSER
+[TTYBPN needs filter to skip multi-word IRING messages to continue]
+[Need to make SVPPC work with BASE and PDP-11 on KL]
+[Need to implement FRCSET and make CCTYO work for CTY's LDB]
+[Need to equate CONMSG with SEND ALL]
+MACRO: CTYSIM
+MACRO: SEGCON
+MACRO: TMPUUO
+MACRO: SIMIO
+MACRO: IOCSS
+MACRO: UUOCON
+MACRO: PATCH
+MACRO: DEBUG
+MACRO: ONCE
+MACRO: ONCDSK
+MACRO: REFSTR
+
+.COMPILE @MONKS
+MACRO: COMTXT
+XKS-P034/P
+9-9-85
+M01554 (id)
+4096 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+MACRO: SETETY
+MACRO: FILUUO
+MACRO: FILIO
+MACRO: FRMSER
+MACRO: PCBIO
+MACRO: SWAMP
+MACRO: MAPIO
+convert KCREAT code at CREAT2 to use LOKHPW routine.
+MACRO: CLUBS
+MACRO: FILFND
+MACRO: FILRIB
+MACRO: RMXKON
+MACRO: CLOCK1
+MACRO: COMCON
+MACRO: CORE1
+MACRO: ERRCON
+[DIETYO+3: Cannot use CCTYO because CTY has no LDB]
+MACRO: JOBDAT
+MACRO: ACTSER
+MACRO: PICON
+[Need more work at EXCPAR - typeout info on EXEC parity error]
+MACRO: MAGSER
+MACRO: LPTSRS
+MACRO: SCHED1
+MACRO: SCNSER
+[TTYBPN needs filter to skip multi-word IRING messages to continue]
+[Need to make SVPPC disable KAF from the 8080 on KS]
+[Need to implement FRCSET and make CCTYO work for CTY's LDB]
+[Need to equate CONMSG with SEND ALL]
+MACRO: CTYSIM
+MACRO: DZKON
+MACRO: DR11C
+MACRO: KMCSER
+MACRO: CIOPR
+MACRO: SEGCON
+MACRO: TMPUUO
+MACRO: SIMIO
+MACRO: IOCSS
+MACRO: UUOCON
+MACRO: PATCH
+MACRO: DEBUG
+MACRO: KMC
+MACRO: ONCE
+MACRO: ONCDSK
+MACRO: REFSTR
+
+.COMPILE @MONF3
+MACRO: COMTXT
+X930-P034/P
+9-9-85
+M01550 (id)
+6 = CPU serial number
+40 frames
+16 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+[F3 disk definitions are duplicated in COMMON and APXKON]
+MACRO: COMMOD
+MACRO: SETETY
+MACRO: FILUUO
+MACRO: FILIO
+MACRO: FRMSER
+MACRO: PCBIO
+MACRO: SWAMP
+MACRO: MAPIO
+convert KCREAT code at CREAT2 to use LOKHPW routine.
+MACRO: CLUBS
+MACRO: FILFND
+MACRO: FILRIB
+MACRO: APXKON
+MACRO: CLOCK1
+[What do we do on FOONLY for accounting?]
+MACRO: COMCON
+MACRO: CORE1
+MACRO: ERRCON
+[DIETYO+3: Cannot use CCTYO because CTY has no LDB]
+MACRO: JOBDAT
+MACRO: ACTSER
+MACRO: PICON
+[Need more work at EXCPAR - typeout info on EXEC parity error]
+[SNNMI: SNOOP has not been written for FOONLY]
+MACRO: F3TSER
+[F3TRWC+0: Check for drive dropping off line during rewind check]
+[WRERR: What happens on memory parity?]
+[WRLOSE+2: Are there any detectable device errors?]
+[SRFX: Word count not stored in buffer]
+MACRO: NO.LPT
+MACRO: SCHED1
+MACRO: SCNSER
+[TTYBPN needs filter to skip multi-word IRING messages to continue]
+[Need to make SVPPC work with micronode on F3]
+[Need to implement FRCSET and make CCTYO work for CTY's LDB]
+[Need to equate CONMSG with SEND ALL]
+MACRO: CIOPR
+MACRO: CTYSIM
+MACRO: SEGCON
+MACRO: TMPUUO
+MACRO: SIMIO
+MACRO: IOCSS
+MACRO: UUOCON
+MACRO: PATCH
+MACRO: DEBUG
+MACRO: ONCE
+MACRO: ONCDSK
+MACRO: REFSTR
+
+.;Now load the monitors
+
+.LOAD /SAVE:12034P @MON12
+MACRO: COMTXT
+C12-P034/P
+9-9-85
+M01514 (id)
+532 = CPU serial number
+128 frames
+128 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+12034P SAVED
+
+.LOAD /SAVE:22034P @MON22
+MACRO: COMTXT
+C22-P034/P
+9-9-85
+M01515 (id)
+742 = CPU serial number
+108 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+194 PAGES CORE
+22034P SAVED
+
+.LOAD /SAVE:23034P @MON23
+MACRO: COMTXT
+D23-P034/P
+9-9-85
+M01516 (id)
+1275 = CPU serial number
+110 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+23034P SAVED
+
+.LOAD /SAVE:25034P @MON25
+MACRO: COMTXT
+D25-P034/P
+9-9-85
+M01518 (id)
+1460 = CPU serial number
+108 frames
+100 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+25034P SAVED
+
+.LOAD /SAVE:26034P @MON26
+MACRO: COMTXT
+C26-P034/P
+9-9-85
+M01519 (id)
+1307 = CPU serial number
+100 frames
+116 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+26034P SAVED
+
+.LOAD /SAVE:27034P @MON27
+MACRO: COMTXT
+D27-P034/P
+9-9-85
+M01520 (id)
+761 = CPU serial number
+108 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+192 PAGES CORE
+27034P SAVED
+
+.LOAD /SAVE:28034P @MON28
+MACRO: COMTXT
+F28-P034/P
+9-9-85
+M01521 (id)
+1388 = CPU serial number
+110 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDould be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+204 PAGES CORE
+28034P SAVED
+
+.LOAD /SAVE:29034P @MON29
+MACRO: COMTXT
+C29-P034/P
+9-9-85
+M01522 (id)
+1286 = CPU serial number
+80 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+194 PAGES CORE
+29034P SAVED
+
+.LOAD /SAVE:30034P @MON30
+MACRO: COMTXT
+F30-P034/P
+9-9-85
+M01523 (id)
+1427 = CPU serial number
+108 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+204 PAGES CORE
+30034P SAVED
+
+.LOAD /SAVE:31034P @MON31
+MACRO: COMTXT
+D31-P034/P
+9-9-85
+M01524 (id)
+666 = CPU serial number
+60 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+188 PAGES CORE
+31034P SAVED
+
+.LOAD /SAVE:33034P @MON33
+MACRO: COMTXT
+C33-P034/P
+9-9-85
+M01526 (id)
+1081 = CPU serial number
+110 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+200 PAGES CORE
+33034P SAVED
+
+.LOAD /SAVE:34034P @MON34
+MACRO: COMTXT
+C34-P034/P
+9-9-85
+M01527 (id)
+641 = CPU serial number
+60 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+188 PAGES CORE
+34034P SAVED
+
+.LOAD /SAVE:35034P @MON35
+MACRO: COMTXT
+C35-P034/P
+9-9-85
+M01528 (id)
+1386 = CPU serial number
+127 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+202 PAGES CORE
+35034P SAVED
+
+.LOAD /SAVE:36034P @MON36
+MACRO: COMTXT
+C36-P034/P
+9-9-85
+M01529 (id)
+1415 = CPU serial number
+80 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+194 PAGES CORE
+36034P SAVED
+
+.LOAD /SAVE:37034P @MON37
+MACRO: COMTXT
+D37-P034/P
+9-9-85
+M01530 (id)
+1461 = CPU serial number
+110 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+37034P SAVED
+
+.LOAD /SAVE:38034P @MON38
+MACRO: COMTXT
+F38-P034/P
+9-9-85
+M01531 (id)
+1405 = CPU serial number
+80 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+202 PAGES CORE
+38034P SAVED
+
+.LOAD /SAVE:39034P @MON39
+MACRO: COMTXT
+C39-P034/P
+9-9-85
+M01532 (id)
+1354 = CPU serial number
+127 frames
+145 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+202 PAGES CORE
+39034P SAVED
+
+.LOAD /SAVE:54034P @MON54
+MACRO: COMTXT
+D54-P034/P
+9-9-85
+M01533 (id)
+1376 = CPU serial number
+110 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+54034P SAVED
+
+.LOAD /SAVE:55034P @MON55
+MACRO: COMTXT
+C55-P034/P
+9-9-85
+M01534 (id)
+1336 = CPU serial number
+127 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+MACRO: RMTSER
+RMTSER NOT SUPPORTED ON KL10
+MACRO: SIMKL
+LOADING
+202 PAGES CORE
+55034P SAVED
+
+.LOAD /SAVE:56034P @MON56
+MACRO: COMTXT
+D56-P034/P
+9-9-85
+M01535 (id)
+1383 = CPU serial number
+100 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+56034P SAVED
+
+.LOAD /SAVE:57034P @MON57
+MACRO: COMTXT
+[C57 is the only KI with SPCBN=30, RPCBN=14]
+C57-P034/P
+9-9-85
+M01536 (id)
+542 = CPU serial number
+110 frames
+96 network ports
+MACRO: COMMON
+[C57 is the only KI with SPCBN=30, RPCBN=14]
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+[C57 is the only KI with SPCBN=30, RPCBN=14]
+LOADING
+196 PAGES CORE
+57034P SAVED
+
+.LOAD /SAVE:58034P @MON58
+MACRO: COMTXT
+F58-P034/P
+9-9-85
+M01537 (id)
+1332 = CPU serial number
+80 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+196 PAGES CORE
+58034P SAVED
+
+.LOAD /SAVE:59034P @MON59
+MACRO: COMTXT
+S59-P034/P
+9-9-85
+M01538 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+59034P SAVED
+
+.LOAD /SAVE:60034P @MON60
+MACRO: COMTXT
+S60-P034/P
+9-9-85
+M01539 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+60034P SAVED
+
+.LOAD /SAVE:65034P @MON65
+MACRO: COMTXT
+D65-P034/P
+9-9-85
+M01540 (id)
+1380 = CPU serial number
+108 frames
+100 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+198 PAGES CORE
+65034P SAVED
+
+.LOAD /SAVE:70034P @MON70
+MACRO: COMTXT
+C70-P034/P
+9-9-85
+M01541 (id)
+733 = CPU serial number
+108 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+194 PAGES CORE
+70034P SAVED
+
+.LOAD /SAVE:72034P @MON72
+MACRO: COMTXT
+D72-P034/P
+9-9-85
+M01542 (id)
+657 = CPU serial number
+60 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+188 PAGES CORE
+72034P SAVED
+
+.LOAD /SAVE:74034P @MON74
+MACRO: COMTXT
+F74-P034/P
+9-9-85
+M01543 (id)
+1421 = CPU serial number
+80 frames
+96 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+202 PAGES CORE
+74034P SAVED
+
+.LOAD /SAVE:79034P @MON79
+MACRO: .MAIN
+D79-P034/P
+9-9-85
+M01544 (id)
+565 = CPU serial number
+60 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+188 PAGES CORE
+79034P SAVED
+
+.LOAD /SAVE:83034P @MON83
+MACRO: COMTXT
+S83-P034/P
+9-9-85
+M01545 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+83034P SAVED
+
+.LOAD /SAVE:90034P @MON90
+MACRO: COMTXT
+S90-P034/P
+9-9-85
+M01546 (id)
+1305 = CPU serial number
+95 frames
+127 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+More than 255 TTY DDBs requested - allocating 255 only.
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+196 PAGES CORE
+90034P SAVED
+
+.LOAD /SAVE:92034P @MON92
+MACRO: COMTXT
+X95-P034/P
+9-9-85
+M01548 (id)
+4267 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+92034P SAVED
+
+.LOAD /SAVE:95034P @MON95
+MACRO: COMTXT
+X95-P034/P
+9-9-85
+M01548 (id)
+4267 = CPU serial number
+30 frames
+64 network ports
+LOADING
+186 PAGES CORE
+95034P SAVED
+
+.LOAD /SAVE:CA034P @MONCA
+MACRO: COMTXT
+C897-P034/P
+9-9-85
+M01549 (id)
+5 = CPU serial number
+40 frames
+40 network ports
+40 PTY ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+[F3 disk definitions are duplicated in COMMON and APXKON]
+MACRO: COMMOD
+LOADING
+204 PAGES CORE
+CA034P SAVED
+
+.LOAD /SAVE:F3034P @MONF3
+MACRO: COMTXT
+X930-P034/P
+9-9-85
+M01550 (id)
+6 = CPU serial number
+40 frames
+16 network ports
+LOADING
+204 PAGES CORE
+F3034P SAVED
+
+.LOAD /SAVE:FZ034P @MONFZ
+MACRO: COMTXT
+H370-P034/P
+9-9-85
+M01551 (id)
+4097 = CPU serial number
+30 frames
+100 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+FZ034P SAVED
+
+.LOAD /SAVE:MA034P @MONMA
+MACRO: COMTXT
+M169-P034/P
+9-9-85
+M01555 (id)
+4097 = CPU serial number
+32 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+MA034P SAVED
+
+.LOAD /SAVE:MT034P @MONMT
+MACRO: COMTXT
+[Defining 32 disk system - 16 on BPA and 16 on BPB]
+C108-P034/P
+9-9-85
+M01556 (id)
+1024 = CPU serial number
+80 frames
+96 network ports
+MACRO: COMMON
+[Defining 32 disk system - 16 on BPA and 16 on BPB]
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+[Defining 32 disk system - 16 on BPA and 16 on BPB]
+LOADING
+202 PAGES CORE
+MT034P SAVED
+
+.LOAD /SAVE:RB034P @MONRB
+MACRO: COMTXT
+W1051-P034/P
+9-9-85
+M01557 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+RB034P SAVED
+
+.LOAD /SAVE:S1034P @MONS1
+MACRO: COMTXT
+S170-P034/P
+9-9-85
+M01558 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+S1034P SAVED
+
+.LOAD /SAVE:S2034P @MONS2
+MACRO: COMTXT
+S184-P034/P
+9-9-85
+M01559 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+S2034P SAVED
+
+.LOAD /SAVE:S3034P @MONS3
+MACRO: COMTXT
+S264-P034/P
+9-9-85
+M01560 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+S3034P SAVED
+
+.LOAD /SAVE:S4034P @MONS4
+MACRO: COMTXT
+S301-P034/P
+9-9-85
+M01561 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+S4034P SAVED
+
+.LOAD /SAVE:S5034P @MONS5
+MACRO: COMTXT
+S443-P034/P
+9-9-85
+M01562 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+LOADING
+186 PAGES CORE
+S5034P SAVED
+
+.LOAD /SAVE:TW034P @MONTW
+MACRO: COMTXT
+S33-P034/P
+9-9-85
+M01563 (id)
+4097 = CPU serial number
+30 frames
+64 network ports
+MACRO: COMMON
+[CPU status variables at .CPSLF:: need to be defined by a macro]
+[Need to implement BUGDMP and rest of MONBTS]
+[CRSDEV should be obsolete]
+[MOVE PG,PAGDTI at B2B-3 destroys valuable data]
+[The routine to load BOOTS should be moved to a different module]
+MACRO: COMMOD
+MACRO: SETETY
+LOADING
+186 PAGES CORE
+TW034P SAVED
+
+.R CKSUM
+INPUT: ##034P.SAV
+TIDZUL 23034P.SAV
+XIPZAC 39034P.SAV
+MUJWOD 57034P.SAV
+PUTBIV MT034P.SAV
+RUNCUD S2034P.SAV
+RAFPIQ 33034P.SAV
+YIWNIZ 58034P.SAV
+LUCXIG 60034P.SAV
+GIKFIX RB034P.SAV
+CESPUQ S3034P.SAV
+YAMSIV 25034P.SAV
+KEBHED 34034P.SAV
+XOJKIH 59034P.SAV
+DISRUC 70034P.SAV
+SIFWIH 95034P.SAV
+TENXUJ F3034P.SAV
+VOXSAL MA034P.SAV
+QIRSAX S4034P.SAV
+WAJYEB 26034P.SAV
+YUXMEC 35034P.SAV
+YIQZIP S5034P.SAV
+ZASTEZ TW034P.SAV
+MEQCUF 27034P.SAV
+WUGHUT 36034P.SAV
+MOQMOS 54034P.SAV
+YABHEH 72034P.SAV
+QICCED 79034P.SAV
+TARQOM 90034P.SAV
+BIPTAH 12034P.SAV
+SUWCIT 28034P.SAV
+SUQJOS 30034P.SAV
+DEXCOS 37034P.SAV
+RENKUV 55034P.SAV
+ZURJOF 22034P.SAV
+QUWBAS 29034P.SAV
+GIYBAL 31034P.SAV
+WUXHAX 38034P.SAV
+NIZXAT 56034P.SAV
+HOCWIB 65034P.SAV
+SUDBAQ 74034P.SAV
+ZOKTEK 83034P.SAV
+SIFWIH 92034P.SAV
+LUWWAL CA034P.SAV
+NEKMOV FZ034P.SAV
+ZOVTEH S1034P.SAV
+INPUT:
+
+.DAYTIME
+10-SEP-1985 22:14:01 PDT
+
+.LOGOUT
+7992.82 tru
+terminal time: 5:14:55
+    Ve514
