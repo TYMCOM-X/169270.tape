@@ -1,0 +1,410 @@
+18:50:54
+18:50:54	*** Begin Logging ***
+18:50:54
+
+18:50:54 
+18:50:54 X14, hardware *B*, KS-4257, base 6760, X14-P035/D06, 5-31-88, M02522
+18:50:54 
+18:50:54 Highest memory address is 1,,577777
+18:50:54 
+18:50:54 Checking all units on disk controller - reading UNIT ID from HOME pages.
+18:50:54  RMA0:RM0309=B0    RMA1:RM0310=B1    RMA2:RM0312=B2    RMA3:(no disk)   
+18:50:54  RMA4:(no disk)    RMA5:(no disk)    RMA6:(no disk)    RMA7:(no disk)   
+18:50:54 
+18:50:54 
+18:50:54 ?????Should have 512K of memory.
+18:50:54 448K of memory online.
+18:50:54 
+18:50:54 
+18:50:54 System in auto-restart, running INITIA
+18:50:54 INITIA starting DSKCLN on TTY0
+18:50:54 
+18:50:54      D-S-K-C-L-N   version 37(110)
+18:50:54 
+18:50:54 NO ANALYSIS REQUIRED FOR DSKB.
+18:50:54 
+18:50:54 
+18:50:54 
+18:50:54 DSKCLN DONE AT  DATE NOT RECEIVED     UPTIME = 0 MINUTES
+18:50:54 
+18:50:54 SETUUO forcing INITIA on TTY1,TTY2,TTY3,TTY4,TTY5
+18:50:54 INITIA starting CHKPNT on TTY1
+18:50:54 INITIA starting COPYCRASH on TTY2
+18:50:55 INITIA starting KMC LOADER on TTY4
+18:50:55 
+18:50:55 KMC sucessfully loaded
+18:50:55 INITIA starting INITIALIZATION on TTY3
+18:50:55 Waiting for date and time
+18:50:55 Waiting for date and time
+18:50:55 
+18:50:55 Date/time is now 01-Jun-1988 11:50:27 Wednesday
+18:50:55 --- System is SHUT ---
+18:50:55 
+18:50:55        Initialization completed 1-JUN-1988 1850 GMT
+18:50:55 CHKPNT on job 02
+18:50:55 
+18:50:55 Date/time is now 01-Jun-1988 11:50:30 Wednesday
+18:50:55 
+18:50:55 
+18:50:55 INITIA running XEXEC SYSJOB
+18:50:55 
+18:50:55 Date/time is now 01-Jun-1988 11:50:46 Wednesday
+18:50:55 01-Jun-88 18:50:51 GMT XEXEC in frame 4
+18:51:04 
+18:51:04 Date/time is now 01-Jun-1988 11:50:54 Wednesday
+18:51:04 X14-P035/D06 01-Jun-1988 11:51:00 - Total of 11808 pages free on DSKB
+19:00:04 X14-P035/D06 01-Jun-1988 12:00:00 - Total of 11752 pages free on DSKB
+23:00:08 X14-P035/D06 01-Jun-1988 16:00:00 - Total of 11673 pages free on DSKB
+03:00:08 X14-P035/D06 01-Jun-1988 20:00:00 - Total of 11670 pages free on DSKB
+07:00:08 X14-P035/D06 02-Jun-1988 00:00:00 - Total of 11664 pages free on DSKB
+10:02:24 
+10:02:24 Date/time is now 02-Jun-1988 03:02:14 Thursday
+11:00:04 X14-P035/D06 02-Jun-1988 04:00:00 - Total of 11656 pages free on DSKB
+15:00:04 X14-P035/D06 02-Jun-1988 08:00:00 - Total of 11648 pages free on DSKB
+15:56:53 
+15:56:53 Date/time is now 02-Jun-1988 08:56:51 Thursday
+19:00:03 X14-P035/D06 02-Jun-1988 12:00:00 - Total of 11638 pages free on DSKB
+19:01:22 
+19:01:22 Date/time is now 02-Jun-1988 12:01:20 Thursday
+23:00:05 X14-P035/D06 02-Jun-1988 16:00:00 - Total of 11617 pages free on DSKB
+03:00:05 X14-P035/D06 02-Jun-1988 20:00:00 - Total of 11586 pages free on DSKB
+07:00:05 X14-P035/D06 03-Jun-1988 00:00:00 - Total of 11578 pages free on DSKB
+10:04:43 
+10:04:43 Date/time is now 03-Jun-1988 03:04:34 Friday
+11:00:03 X14-P035/D06 03-Jun-1988 04:00:00 - Total of 11570 pages free on DSKB
+15:00:03 X14-P035/D06 03-Jun-1988 08:00:00 - Total of 11562 pages free on DSKB
+19:00:03 X14-P035/D06 03-Jun-1988 12:00:00 - Total of 11491 pages free on DSKB
+23:00:03 X14-P035/D06 03-Jun-1988 16:00:00 - Total of 11428 pages free on DSKB
+03:00:03 X14-P035/D06 03-Jun-1988 20:00:00 - Total of 11414 pages free on DSKB
+07:00:03 X14-P035/D06 04-Jun-1988 00:00:00 - Total of 11406 pages free on DSKB
+10:02:02 
+10:02:02 Date/time is now 04-Jun-1988 03:01:56 Saturday
+11:00:01 X14-P035/D06 04-Jun-1988 04:00:00 - Total of 11359 pages free on DSKB
+15:00:02 X14-P035/D06 04-Jun-1988 08:00:00 - Total of 11001 pages free on DSKB
+19:00:01 X14-P035/D06 04-Jun-1988 12:00:00 - Total of 10992 pages free on DSKB
+23:00:01 X14-P035/D06 04-Jun-1988 16:00:00 - Total of 10984 pages free on DSKB
+03:00:01 X14-P035/D06 04-Jun-1988 20:00:00 - Total of 10972 pages free on DSKB
+07:00:01 X14-P035/D06 05-Jun-1988 00:00:00 - Total of 10964 pages free on DSKB
+10:00:55 
+10:00:55 Date/time is now 05-Jun-1988 03:00:52 Sunday
+11:00:05 X14-P035/D06 05-Jun-1988 04:00:00 - Total of 10951 pages free on DSKB
+15:00:05 X14-P035/D06 05-Jun-1988 08:00:00 - Total of 10941 pages free on DSKB
+19:00:05 X14-P035/D06 05-Jun-1988 12:00:00 - Total of 10933 pages free on DSKB
+23:00:05 X14-P035/D06 05-Jun-1988 16:00:00 - Total of 10926 pages free on DSKB
+03:00:05 X14-P035/D06 05-Jun-1988 20:00:00 - Total of 10912 pages free on DSKB
+07:00:05 X14-P035/D06 06-Jun-1988 00:00:00 - Total of 10904 pages free on DSKB
+10:03:10 
+10:03:10 Date/time is now 06-Jun-1988 03:03:00 Monday
+11:00:10 X14-P035/D06 06-Jun-1988 04:00:00 - Total of 10893 pages free on DSKB
+15:00:10 X14-P035/D06 06-Jun-1988 08:00:00 - Total of 10884 pages free on DSKB
+19:00:10 X14-P035/D06 06-Jun-1988 12:00:00 - Total of 10874 pages free on DSKB
+23:00:10 X14-P035/D06 06-Jun-1988 16:00:00 - Total of 10864 pages free on DSKB
+03:00:10 X14-P035/D06 06-Jun-1988 20:00:00 - Total of 10849 pages free on DSKB
+07:00:10 X14-P035/D06 07-Jun-1988 00:00:00 - Total of 10842 pages free on DSKB
+10:02:15 
+10:02:15 Date/time is now 07-Jun-1988 03:02:05 Tuesday
+11:00:05 X14-P035/D06 07-Jun-1988 04:00:00 - Total of 10828 pages free on DSKB
+15:00:05 X14-P035/D06 07-Jun-1988 08:00:00 - Total of 10817 pages free on DSKB
+19:00:06 X14-P035/D06 07-Jun-1988 12:00:00 - Total of 10805 pages free on DSKB
+23:00:06 X14-P035/D06 07-Jun-1988 16:00:00 - Total of 10798 pages free on DSKB
+03:00:06 X14-P035/D06 07-Jun-1988 20:00:00 - Total of 10783 pages free on DSKB
+07:00:06 X14-P035/D06 08-Jun-1988 00:00:00 - Total of 10775 pages free on DSKB
+10:02:13 
+10:02:13 Date/time is now 08-Jun-1988 03:02:06 Wednesday
+11:00:03 X14-P035/D06 08-Jun-1988 04:00:00 - Total of 10763 pages free on DSKB
+15:00:03 X14-P035/D06 08-Jun-1988 08:00:00 - Total of 10754 pages free on DSKB
+19:00:03 X14-P035/D06 08-Jun-1988 12:00:00 - Total of 10745 pages free on DSKB
+23:00:03 X14-P035/D06 08-Jun-1988 16:00:00 - Total of 10737 pages free on DSKB
+03:00:03 X14-P035/D06 08-Jun-1988 20:00:00 - Total of 10709 pages free on DSKB
+07:00:03 X14-P035/D06 09-Jun-1988 00:00:00 - Total of 10715 pages free on DSKB
+10:01:19 
+10:01:29 Date/time is now 09-Jun-1988 03:01:16 Thursday
+11:00:09 X14-P035/D06 09-Jun-1988 04:00:00 - Total of 10704 pages free on DSKB
+15:00:09 X14-P035/D06 09-Jun-1988 08:00:00 - Total of 10693 pages free on DSKB
+19:00:09 X14-P035/D06 09-Jun-1988 12:00:00 - Total of 10683 pages free on DSKB
+21:35:48 
+21:35:48 Date/time is now 09-Jun-1988 14:35:39 Thursday
+23:00:08 X14-P035/D06 09-Jun-1988 16:00:00 - Total of 10674 pages free on DSKB
+03:00:08 X14-P035/D06 09-Jun-1988 20:00:00 - Total of 10660 pages free on DSKB
+07:00:08 X14-P035/D06 10-Jun-1988 00:00:00 - Total of 10652 pages free on DSKB
+10:03:35 
+10:03:35 Date/time is now 10-Jun-1988 03:03:33 Friday
+11:00:05 X14-P035/D06 10-Jun-1988 04:00:00 - Total of 10642 pages free on DSKB
+12:08:06 
+12:08:06 Date/time is now 10-Jun-1988 05:07:57 Friday
+15:00:06 X14-P035/D06 10-Jun-1988 08:00:00 - Total of 10630 pages free on DSKB
+18:50:15 
+18:50:15 Date/time is now 10-Jun-1988 11:50:11 Friday
+19:00:04 X14-P035/D06 10-Jun-1988 12:00:00 - Total of 10622 pages free on DSKB
+23:00:04 X14-P035/D06 10-Jun-1988 16:00:00 - Total of 10612 pages free on DSKB
+03:00:04 X14-P035/D06 10-Jun-1988 20:00:00 - Total of 10598 pages free on DSKB
+07:00:04 X14-P035/D06 11-Jun-1988 00:00:00 - Total of 10781 pages free on DSKB
+10:01:53 
+10:01:53 Date/time is now 11-Jun-1988 03:01:43 Saturday
+11:00:03 X14-P035/D06 11-Jun-1988 04:00:00 - Total of 10772 pages free on DSKB
+13:08:46 
+13:08:46 Date/time is now 11-Jun-1988 06:08:44 Saturday
+15:00:06 X14-P035/D06 11-Jun-1988 08:00:00 - Total of 10765 pages free on DSKB
+19:00:06 X14-P035/D06 11-Jun-1988 12:00:00 - Total of 10756 pages free on DSKB
+23:00:06 X14-P035/D06 11-Jun-1988 16:00:00 - Total of 10750 pages free on DSKB
+03:00:06 X14-P035/D06 11-Jun-1988 20:00:00 - Total of 10738 pages free on DSKB
+07:00:06 X14-P035/D06 12-Jun-1988 00:00:00 - Total of 10730 pages free on DSKB
+10:00:29 
+10:00:29 Date/time is now 12-Jun-1988 03:00:21 Sunday
+11:00:09 X14-P035/D06 12-Jun-1988 04:00:00 - Total of 10720 pages free on DSKB
+15:00:09 X14-P035/D06 12-Jun-1988 08:00:00 - Total of 10712 pages free on DSKB
+19:00:09 X14-P035/D06 12-Jun-1988 12:00:00 - Total of 10705 pages free on DSKB
+23:00:09 X14-P035/D06 12-Jun-1988 16:00:00 - Total of 10698 pages free on DSKB
+03:00:09 X14-P035/D06 12-Jun-1988 20:00:00 - Total of 10686 pages free on DSKB
+07:00:09 X14-P035/D06 13-Jun-1988 00:00:00 - Total of 10680 pages free on DSKB
+10:01:26 
+10:01:26 Date/time is now 13-Jun-1988 03:01:20 Monday
+11:00:06 X14-P035/D06 13-Jun-1988 04:00:00 - Total of 10671 pages free on DSKB
+15:00:06 X14-P035/D06 13-Jun-1988 08:00:00 - Total of 10662 pages free on DSKB
+19:00:06 X14-P035/D06 13-Jun-1988 12:00:00 - Total of 10653 pages free on DSKB
+23:00:06 X14-P035/D06 13-Jun-1988 16:00:00 - Total of 10646 pages free on DSKB
+03:00:06 X14-P035/D06 13-Jun-1988 20:00:00 - Total of 10633 pages free on DSKB
+07:00:06 X14-P035/D06 14-Jun-1988 00:00:00 - Total of 10627 pages free on DSKB
+10:02:18 
+10:02:18 Date/time is now 14-Jun-1988 03:02:16 Tuesday
+11:00:08 X14-P035/D06 14-Jun-1988 04:00:0otal of 10618 pages free on DSKB
+15:00:08 X14-P035/D06 14-Jun-1988 08:00:00 - Total of 10610 pages free on DSKB
+19:00:08 X14-P035/D06 14-Jun-1988 12:00:00 - Total of 10601 pages free on DSKB
+23:00:03 X14-P035/D06 14-Jun-1988 16:00:00 - Total of 10593 pages free on DSKB
+03:00:03 X14-P035/D06 14-Jun-1988 20:00:00 - Total of 10580 pages free on DSKB
+07:00:03 X14-P035/D06 15-Jun-1988 00:00:00 - Total of 10574 pages free on DSKB
+10:01:12 
+10:01:12 Date/time is now 15-Jun-1988 03:01:05 Wednesday
+11:00:02 X14-P035/D06 15-Jun-1988 04:00:00 - Total of 10564 pages free on DSKB
+15:00:02 X14-P035/D06 15-Jun-1988 08:00:00 - Total of 10556 pages free on DSKB
+19:00:02 X14-P035/D06 15-Jun-1988 12:00:00 - Total of 10548 pages free on DSKB
+23:00:02 X14-P035/D06 15-Jun-1988 16:00:00 - Total of 10541 pages free on DSKB
+23:32:19 
+23:32:19 Date/time is now 15-Jun-1988 16:32:13 Wednesday
+03:00:09 X14-P035/D06 15-Jun-1988 20:00:00 - Total of 10529 pages free on DSKB
+07:00:09 X14-P035/D06 16-Jun-1988 00:00:00 - Total of 10521 pages free on DSKB
+11:00:09 X14-P035/D06 16-Jun-1988 04:00:00 - Total of 10510 pages free on DSKB
+15:00:09 X14-P035/D06 16-Jun-1988 08:00:00 - Total of 10502 pages free on DSKB
+19:00:09 X14-P035/D06 16-Jun-1988 12:00:00 - Total of 10495 pages free on DSKB
+23:00:09 X14-P035/D06 16-Jun-1988 16:00:00 - Total of 10489 pages free on DSKB
+03:00:09 X14-P035/D06 16-Jun-1988 20:00:00 - Total of 10476 pages free on DSKB
+07:00:09 X14-P035/D06 17-Jun-1988 00:00:00 - Total of 10471 pages free on DSKB
+10:00:36 
+10:00:36 Date/time is now 17-Jun-1988 03:00:27 Friday
+11:00:06 X14-P035/D06 17-Jun-1988 04:00:00 - Total of 10430 pages free on DSKB
+15:00:06 X14-P035/D06 17-Jun-1988 08:00:00 - Total of 10420 pages free on DSKB
+19:00:06 X14-P035/D06 17-Jun-1988 12:00:00 - Total of 10409 pages free on DSKB
+23:00:10 X14-P035/D06 17-Jun-1988 16:00:00 - Total of 13382 pages free on DSKB
+03:00:08 X14-P035/D06 17-Jun-1988 20:00:00 - Total of 13002 pages free on DSKB
+07:00:08 X14-P035/D06 18-Jun-1988 00:00:00 - Total of 12991 pages free on DSKB
+10:02:04 
+10:02:04 Date/time is now 18-Jun-1988 03:01:55 Saturday
+11:00:04 X14-P035/D06 18-Jun-1988 04:00:00 - Total of 12938 pages free on DSKB
+15:00:04 X14-P035/D06 18-Jun-1988 08:00:00 - Total of 12888 pages free on DSKB
+19:00:04 X14-P035/D06 18-Jun-1988 12:00:00 - Total of 12874 pages free on DSKB
+23:00:04 X14-P035/D06 18-Jun-1988 16:00:00 - Total of 12863 pages free on DSKB
+01:50:51 
+01:50:51 Date/time is now 18-Jun-1988 18:50:49 Saturday
+03:00:01 X14-P035/D06 18-Jun-1988 20:00:00 - Total of 12847 pages free on DSKB
+07:00:01 X14-P035/D06 19-Jun-1988 00:00:00 - Total of 12836 pages free on DSKB
+10:01:58 
+10:01:58 Date/time is now 19-Jun-1988 03:01:47 Sunday
+11:00:08 X14-P035/D06 19-Jun-1988 04:00:00 - Total of 12816 pages free on DSKB
+15:00:08 X14-P035/D06 19-Jun-1988 08:00:00 - Total of 12803 pages free on DSKB
+19:00:08 X14-P035/D06 19-Jun-1988 12:00:00 - Total of 12791 pages free on DSKB
+23:00:08 X14-P035/D06 19-Jun-1988 16:00:00 - Total of 12780 pages free on DSKB
+03:00:08 X14-P035/D06 19-Jun-1988 20:00:00 - Total of 12764 pages free on DSKB
+07:00:08 X14-P035/D06 20-Jun-1988 00:00:00 - Total of 12754 pages free on DSKB
+10:02:15 
+10:02:16 Date/time is now 20-Jun-1988 03:02:12 Monday
+11:00:05 X14-P035/D06 20-Jun-1988 04:00:00 - Total of 12739 pages free on DSKB
+06:27:46
+06:27:46	*** Begin Logging ***
+06:27:46
+
+06:27:46 
+06:27:46 X14, hardware *B*, KS-4257, base 6760, X14-P035/D05, 4-15-88, M02518
+06:27:46 
+06:27:46 Highest memory address is 1,,577777
+06:27:46 
+06:27:46 Checking all units on disk controller - reading UNIT ID from HOME pages.
+06:27:46  RMA0:RM0309=B0    RMA1:RM0310=B1    RMA2:RM0312=B2    RMA3:(no disk)   
+06:27:47  RMA4:(no disk)    RMA5:(no disk)    RMA6:(no disk)    RMA7:(no disk)   
+06:27:47 
+06:27:47 
+06:27:47 ?????Should have 512K of memory.
+06:27:47 448K of memory online.
+06:27:47 
+06:27:47 
+06:27:47 System in auto-restart, running INITIA
+06:27:47 INITIA starting DSKCLN on TTY0
+06:27:47 
+06:27:47      D-S-K-C-L-N   version 37(110)
+06:27:47 
+06:27:47 X14-P035/D05
+06:27:47 DSKB.  MODE: FAST.     ANALYSIS BEGUN AT  DATE NOT RECEIVED     UPTIME = 0 MINUTES
+06:27:47 
+06:27:47 
+06:27:47 SATs written to disk
+06:27:47 
+06:27:47 
+06:27:47 
+06:27:47 DSKCLN DONE AT  DATE NOT RECEIVED     UPTIME = 0 MINUTES
+06:27:47 
+06:27:47 SETUUO forcing INITIA on TTY1,TTY2,TTY3,TTY4,TTY5
+06:27:47 INITIA starting CHKPNT on TTY1
+06:27:47 INITIA starting COPYCRASH on TTY2
+06:27:47 INITIA starting KMC LOADER on TTY4
+06:27:47 
+06:27:47 KMC sucessfully loaded
+06:27:47 INITIA starting INITIALIZATION on TTY3
+06:27:47 Waiting for date and time
+06:27:47 Waiting for date and time
+06:27:48 
+06:27:48 Date/time is now 24-Jun-1988 23:27:15 Friday
+06:27:48 --- System is SHUT ---
+06:27:48 
+06:27:48 Date/time is now 24-Jun-1988 23:27:19 Friday
+06:27:48 --- System is SHUT ---
+06:27:48 
+06:27:48        Initialization completed 25-JUN-1988 627 GMT
+06:27:48 CHKPNT on job 02
+06:27:48 
+06:27:48 
+06:27:48 INITIA running XEXEC SYSJOB
+06:27:49 25-Jun-88 06:27:41 GMT XEXEC in frame 4
+06:27:49 
+06:27:49 Date/time is now 24-Jun-1988 23:27:41 Friday
+06:28:08 X14-P035/D05 24-Jun-1988 23:28:00 - Total of 12897 pages free on DSKB
+07:00:04 X14-P035/D05 25-Jun-1988 00:00:00 - Total of 13052 pages free on DSKB
+10:02:51 
+10:02:51 Date/time is now 25-Jun-1988 03:02:44 Saturday
+11:00:01 X14-P035/D05 25-Jun-1988 04:00:00 - Total of 13090 pages free on DSKB
+15:00:01 X14-P035/D05 25-Jun-1988 08:00:00 - Total of 13082 pages free on DSKB
+19:00:01 X14-P035/D05 25-Jun-1988 12:00:00 - Total of 13075 pages free on DSKB
+23:00:01 X14-P035/D05 25-Jun-1988 16:00:00 - Total of 13068 pages free on DSKB
+03:00:01 X14-P035/D05 25-Jun-1988 20:00:00 - Total of 13057 pages free on DSKB
+07:00:01 X14-P035/D05 26-Jun-1988 00:00:00 - Total of 13050 pages free on DSKB
+10:02:19 
+10:02:19 Date/time is now 26-Jun-1988 03:02:17 Sunday
+11:00:09 X14-P035/D05 26-Jun-1988 04:00:00 - Total of 13039 pages free on DSKB
+15:00:09 X14-P035/D05 26-Jun-1988 08:00:00 - Total of 13030 pages free on DSKB
+19:00:09 X14-P035/D05 26-Jun-1988 12:00:00 - Total of 13022 pages free on DSKB
+23:00:09 X14-P035/D05 26-Jun-1988 16:00:00 - Total of 13015 pages free on DSKB
+03:00:09 X14-P035/D05 26-Jun-1988 20:00:00 - Total of 13004 pages free on DSKB
+07:00:09 X14-P035/D05 27-Jun-1988 00:00:00 - Total of 12997 pages free on DSKB
+10:07:13 
+10:07:13 Date/time is now 27-Jun-1988 03:07:05 Monday
+11:00:03 X14-P035/D05 27-Jun-1988 04:00:00 - Total of 12986 pages free on DSKB
+14:28:01
+14:28:01	*** Begin Logging ***
+14:28:01
+
+14:28:01 
+14:28:01 X14, hardware *B*, KS-4257, base 6760, X14-P035/D05, 4-15-88, M02518
+14:28:01 
+14:28:01 Highest memory address is 1,,577777
+14:28:01 
+14:28:01 Checking all units on disk controller - reading UNIT ID from HOME pages.
+14:28:01  RMA0:RM0309=B0    RMA1:RM0310=B1    RMA2:RM0312=B2    RMA3:(no disk)   
+14:28:01  RMA4:(no disk)    RMA5:(no disk)    RMA6:(no disk)    RMA7:(no disk)   
+14:28:01 
+14:28:01 
+14:28:01 ?????Should have 512K of memory.
+14:28:01 448K of memory online.
+14:28:01 
+14:28:01 
+14:28:01 System in auto-restart, running INITIA
+14:28:01 INITIA starting DSKCLN on TTY0
+14:28:01 
+14:28:01      D-S-K-C-L-N   version 37(110)
+14:28:01 
+14:28:01 X14-P035/D05
+14:28:02 DSKB.  MODE: FAST.     ANALYSIS BEGUN AT  DATE NOT RECEIVED     UPTIME = 0 MINUTES
+14:28:02 
+14:28:02 
+14:28:02 SATs written to disk
+14:28:02 
+14:28:02 
+14:28:02 
+14:28:02 DSKCLN DONE AT  DATE NOT RECEIVED     UPTIME = 0 MINUTES
+14:28:02 
+14:28:02 SETUUO forcing INITIA on TTY1,TTY2,TTY3,TTY4,TTY5
+14:28:02 INITIA starting CHKPNT on TTY1
+14:28:02 INITIA starting COPYCRASH on TTY2
+14:28:02 INITIA starting KMC LOADER on TTY4
+14:28:02 
+14:28:02 KMC sucessfully loaded
+14:28:02 INITIA starting INITIALIZATION on TTY3
+14:28:02 Waiting for date and time
+14:28:02 Waiting for date and time
+14:28:02 
+14:28:02 Date/time is now 24-Jun-1988 23:27:15 Friday
+14:28:02 --- System is SHUT ---
+14:28:02 
+14:28:02 Date/time is now 24-Jun-1988 23:27:19 Friday
+14:28:02 --- System is SHUT ---
+14:28:02 
+14:28:02        Initialization completed 25-JUN-1988 627 GMT
+14:28:02 CHKPNT on job 02
+14:28:02 
+14:28:02 
+14:28:02 INITIA running XEXEC SYSJOB
+14:28:02 25-Jun-88 06:27:41 GMT XEXEC in frame 4
+14:28:02 
+14:28:02 Date/time is now 24-Jun-1988 23:27:41 Friday
+14:28:02 X14-P035/D05 24-Jun-1988 23:28:00 - Total of 12897 pages free on DSKB
+14:28:02 X14-P035/D05 25-Jun-1988 00:00:00 - Total of 13052 pages free on DSKB
+14:28:02 
+14:28:03 Date/time is now 25-Jun-1988 03:02:44 Saturday
+14:28:03 X14-P035/D05 25-Jun-1988 04:00:00 - Total of 13090 pages free on DSKB
+14:28:03 X14-P035/D05 25-Jun-1988 08:00:00 - Total of 13082 pages free on DSKB
+14:28:03 X14-P035/D05 25-Jun-1988 12:00:00 - Total of 13075 pages free on DSKB
+14:28:03 X14-P035/D05 25-Jun-1988 16:00:00 - Total of 13068 pages free on DSKB
+14:28:03 X14-P035/D05 25-Jun-1988 20:00:00 - Total of 13057 pages free on DSKB
+14:28:03 X14-P035/D05 26-Jun-1988 00:00:00 - Total of 13050 pages free on DSKB
+14:28:03 
+14:28:03 Date/time is now 26-Jun-1988 03:02:17 Sunday
+14:28:03 X14-P035/D05 26-Jun-1988 04:00:00 - Total of 13039 pages free on DSKB
+14:28:03 X14-P035/D05 26-Jun-1988 08:00:00 - Total of 13030 pages free on DSKB
+14:28:03 X14-P035/D05 26-Jun-1988 12:00:00 - Total of 13022 pages free on DSKB
+14:28:03 X14-P035/D05 26-Jun-1988 16:00:00 - Total of 13015 pages free on DSKB
+14:28:03 X14-P035/D05 26-Jun-1988 20:00:00 - Total of 13004 pages free on DSKB
+14:28:03 X14-P035/D05 27-Jun-1988 00:00:00 - Total of 12997 pages free on DSKB
+14:28:03 
+14:28:03 Date/time is now 27-Jun-1988 03:07:05 Monday
+14:28:03 X14-P035/D05 27-Jun-1988 04:00:00 - Total of 12986 pages free on DSKB
+15:00:08 X14-P035/D05 27-Jun-1988 08:00:00 - Total of 12940 pages free on DSKB
+19:00:09 X14-P035/D05 27-Jun-1988 12:00:00 - Total of 12933 pages free on DSKB
+23:00:08 X14-P035/D05 27-Jun-1988 16:00:00 - Total of 12925 pages free on DSKB
+03:00:08 X14-P035/D05 27-Jun-1988 20:00:00 - Total of 12915 pages free on DSKB
+07:00:09 X14-P035/D05 28-Jun-1988 00:00:00 - Total of 12907 pages free on DSKB
+10:01:45 
+10:01:45 Date/time is now 28-Jun-1988 03:01:42 Tuesday
+11:00:05 X14-P035/D05 28-Jun-1988 04:00:00 - Total of 12898 pages free on DSKB
+15:00:05 X14-P035/D05 28-Jun-1988 08:00:00 - Total of 12887 pages free on DSKB
+19:00:05 X14-P035/D05 28-Jun-1988 12:00:00 - Total of 12880 pages free on DSKB
+23:00:05 X14-P035/D05 28-Jun-1988 16:00:00 - Total of 12873 pages free on DSKB
+01:38:20 
+01:38:20 Date/time is now 28-Jun-1988 18:38:19 Tuesday
+03:00:00 X14-P035/D05 28-Jun-1988 20:00:00 - Total of 12861 pages free on DSKB
+07:00:00 X14-P035/D05 29-Jun-1988 00:00:00 - Total of 12854 pages free on DSKB
+10:02:00 
+10:02:00 Date/time is now 29-Jun-1988 03:01:50 Wednesday
+11:00:10 X14-P035/D05 29-Jun-1988 04:00:00 - Total of 12843 pages free on DSKB
+13:52:59 
+13:52:59 Date/time is now 29-Jun-1988 06:52:51 Wednesday
+15:00:09 X14-P035/D05 29-Jun-1988 08:00:00 - Total of 12834 pages free on DSKB
+16:26:19 
+16:26:19 Date/time is now 29-Jun-1988 09:26:18 Wednesday
+16:27:29 
+16:27:29 Date/time is now 29-Jun-1988 09:27:23 Wednesday
+19:00:09 X14-P035/D05 29-Jun-1988 12:00:00 - Total of 12826 pages free on DSKB
+23:00:09 X14-P035/D05 29-Jun-1988 16:00:00 - Total of 12818 pages free on DSKB
+03:00:10 X14-P035/D05 29-Jun-1988 20:00:00 - Total of 12808 pages free on DSKB
+07:00:09 X14-P035/D05 30-Jun-1988 00:00:00 - Total of 12800 pages free on DSKB
+10:01:59 
+10:01:59 Date/time is now 30-Jun-1988 03:01:53 Thursday
+11:00:09 X14-P035/D05 30-Jun-1988 04:00:00 - Total of 12790 pages free on DSKB
+15:00:09 X14-P035/D05 30-Jun-1988 08:00:00 - Total of 12781 pages free on DSKB
+  J@%P
