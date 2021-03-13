@@ -1,0 +1,18 @@
+00:00:16 S 12-Feb-91
+00:05:00 S -S- run #3 job 3 Req #7610  Running DSK:(MAIL)MAILER.SAV
+00:05:05 S -R- run #3 job 3 Done-End <0>
+00:05:07 S -S- stream #1 Req #7603 DSK:(JMS)TATTLE.LOG=DSK:(JMS)TATTLE.CTL
+00:05:16 S Processor status JSU EXECX Setup in frame 3
+00:05:17 P Waiting for interlock
+00:05:18 P Got interlock
+00:05:19 P EXECX Job Processor %1(226) starting in frame 3
+00:05:19 S Starting job processor in frame 3
+00:05:20 P Stream #1 Req #7603 DSK:(JMS)TATTLE.LOG=DSK:(JMS)TATTLE.CTL
+00:07:10 P Stream #1 Req #7603 * completed *
+00:07:11 S -R- stream #1 Done-End <0>
+00:22:19 P Signing off.
+01:05:01 S -S- run #3 job 3 Req #7611  Running DSK:(MAIL)MAILER.SAV
+01:05:10 S -R- run #3 job 3 Done-End <0>
+02:05:02 S -S- run #3 job 3 Req #7613  Running DSK:(MAIL)MAILER.SAV
+02:05:07 S -R- run #3 job 3 Done-End <0>
+02:44:50 S 12-Feb-91 Signing off.
