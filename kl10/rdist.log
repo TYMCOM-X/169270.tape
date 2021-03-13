@@ -1,0 +1,243 @@
+.:logfile rdist.log
+:define $substitution=$true
+sysno
+TYMSHARE X32-P035/E-1 3-2-89
+.daytime
+14-NOV-1989 15:07:01 PST
+
+.run (xexec)minit
+
+.rdist *.*/master:33/host:14,32/check
+Master host: 33
+112 files on master system.
+Slave hosts: 14,32
+Checking host 14
+(KL10        :  14) ACCESS.MSG     2 17-Jun-88 12:58 -- bad checksum GEWVUS
+                           should be 31-May-89 15:38 MATNUX  ALL  RD  RD
+(KL10        :  14) 008TEL.COM     2 18-Nov-87 22:33 -- extra not on master
+(KL10        :  14) 008TEL.OUT     2 18-Nov-87 22:33 -- extra not on master
+(KL10        :  14) LOGINN.34F    35 08-Oct-80 15:45 -- extra not on master
+(KL10        :  14) LOGINN.SHR     5 09-Oct-80 11:14 -- extra not on master
+(KL10        :  14) UC1023.BIN    16 19-Mar-81 12:24 -- extra not on master
+(KL10        :  14) UC0319.BIN    17 19-Mar-81 19:47 -- extra not on master
+(KL10        :  14) DFQCB.MEM                        -- missing on slave
+(KL10        :  14) APT10A.SAI                       -- missing on slave
+(KL10        :  14) KLDCP.HLP                        -- missing on slave
+(KL10        :  14) KLDCP.DMP                        -- missing on slave
+(KL10        :  14) ERROR.TEC                        -- missing on slave
+(KL10        :  14) FD11.P11                         -- missing on slave
+(KL10        :  14) CONS11.P11                       -- missing on slave
+(KL10        :  14) CDUMPT.P11                       -- missing on slave
+(KL10        :  14) KLDCP.CMD                        -- missing on slave
+(KL10        :  14) KLDCP.SEA                        -- missing on slave
+(KL10        :  14) KLDCP.BIN                        -- missing on slave
+(KL10        :  14) DCPDEC.DMP                       -- missing on slave
+(KL10        :  14) DCPDEC.A11                       -- missing on slave
+(KL10        :  14) DCPDEC.BIN                       -- missing on slave
+(KL10        :  14) KLDCP.FLO                        -- missing on slave
+(KL10        :  14) KLDCP.NFO                        -- missing on slave
+(KL10        :  14) REMIND.DAT                       -- missing on slave
+(KL10        :  14) KLDCP.DOC                        -- missing on slave
+(KL10        :  14) KLDCP.TXT                        -- missing on slave
+(KL10        :  14) FINDIT.TEC                       -- missing on slave
+(KL10        :  14) MAIL.FWD                         -- missing on slave
+(KL10        :  14) CDMP11.P11                       -- missing on slave
+(KL10        :  14) PRM11.CDU                        -- missing on slave
+(KL10        :  14) PRM11.DCP                        -- missing on slave
+(KL10        :  14) PRM11.DCU                        -- missing on slave
+(KL10        :  14) FLOPPY.P11                       -- missing on slave
+(KL10        :  14) IKLDCP.TXT                       -- missing on slave
+(KL10        :  14) FICHE.CMP                        -- missing on slave
+(KL10        :  14) 066TEL.OUT                       -- missing on slave
+(KL10        :  14) 066TEL.COM                       -- missing on slave
+(KL10        :  14) BOTLOD.SAV                       -- missing on slave
+(KL10        :  14) BOTLOD.A10                       -- missing on slave
+(KL10        :  14) DCPCOM.CMD                       -- missing on slave
+(KL10        :  14) DTA11.P11                        -- missing on slave
+(KL10        :  14) HELP.TEC                         -- missing on slave
+(KL10        :  14) CDUDEC.DMP                       -- missing on slave
+(KL10        :  14) DCUDEC.DMP                       -- missing on slave
+(KL10        :  14) DCUDEC.A11                       -- missing on slave
+(KL10        :  14) DCUDEC.BIN                       -- missing on slave
+(KL10        :  14) CDUDEC.BIN                       -- missing on slave
+(KL10        :  14) CDUDEC.A11                       -- missing on slave
+(KL10        :  14) LAZO.2                           -- missing on slave
+(KL10        :  14) LAZO.1                           -- missing on slave
+(KL10        :  14) KLDCPU.HLP                       -- missing on slave
+(KL10        :  14) KLAD10.HLP                       -- missing on slave
+(KL10        :  14) BOOTS.34F                        -- missing on slave
+(KL10        :  14) BOOTS.OLD                        -- missing on slave
+(KL10        :  14) BOOTS.SAV                        -- missing on slave
+(KL10        :  14) CDUMP.DMP                        -- missing on slave
+(KL10        :  14) CDUMP.CMD                        -- missing on slave
+(KL10        :  14) CDUMP.ERS                        -- missing on slave
+(KL10        :  14) CDUMP.BIN                        -- missing on slave
+(KL10        :  14) RP0411.P11                       -- missing on slave
+(KL10        :  14) FICHE3                           -- missing on slave
+(KL10        :  14) KLFLX4.P11                       -- missing on slave
+(KL10        :  14) KLDCPU.CMD                       -- missing on slave
+(KL10        :  14) TXTFND.SAV                       -- missing on slave
+(KL10        :  14) KLDCPU.DMP                       -- missing on slave
+(KL10        :  14) DUMP.SAI                         -- missing on slave
+(KL10        :  14) KLDCPU.BIN                       -- missing on slave
+(KL10        :  14) DUMP.SAV                         -- missing on slave
+(KL10        :  14) CDUMP.DOC                        -- missing on slave
+(KL10        :  14) KLDCPU.DOC                       -- missing on slave
+(KL10        :  14) RDIST.SAT                        -- missing on slave
+(KL10        :  14) RDIST.SUN                        -- missing on slave
+(KL10        :  14) RDIST.FRI                        -- missing on slave
+(KL10        :  14) RDIST.OUT                        -- missing on slave
+(KL10        :  14) RDIST.TUE                        -- missing on slave
+(KL10        :  14) KLDCP1.DOC                       -- missing on slave
+(KL10        :  14) KLDCP1.HLP                       -- missing on slave
+(KL10        :  14) RDIST.MON                        -- missing on slave
+(KL10        :  14) RDIST.THU                        -- missing on slave
+(KL10        :  14) RDIST.CTL                        -- missing on slave
+(KL10        :  14) RDIST.LOG                        -- missing on slave
+(KL10        :  14) RDIST.WED                        -- missing on slave
+(KL10        :  14) DCUCOM.CMD                       -- missing on slave
+(KL10        :  14) CDUCOM.CMD                       -- missing on slave
+(KL10        :  14) BR11.P11                         -- missing on slave
+(KL10        :  14) APT11.P11                        -- missing on slave
+(KL10        :  14) KLFLX3.P11                       -- missing on slave
+(KL10        :  14) KLDCPT.P11                       -- missing on slave
+(KL10        :  14) APT10.SAV                        -- missing on slave
+(KL10        :  14) APT10.DOC                        -- missing on slave
+(KL10        :  14) KLDCP0.HLP                       -- missing on slave
+(KL10        :  14) DDRPI2.HLP                       -- missing on slave
+(KL10        :  14) APT10.HLP                        -- missing on slave
+(KL10        :  14) SBST11.CDU                       -- missing on slave
+(KL10        :  14) FILE11.P11                       -- missing on slave
+(KL10        :  14) SBST11.DCU                       -- missing on slave
+(KL10        :  14) KLFLX2.P11                       -- missing on slave
+(KL10        :  14) SBST11.DCP                       -- missing on slave
+(KL10        :  14) SYMBOL.SAI                       -- missing on slave
+(KL10        :  14) VER16.CMP                        -- missing on slave
+(KL10        :  14) SYMBOL.SAV                       -- missing on slave
+(KL10        :  14) APT10.SAI                        -- missing on slave
+(KL10        :  14) DGQDA.MEM                        -- missing on slave
+(KL10        :  14) KLCRSH.HLP                       -- missing on slave
+(KL10        :  14) RPG.INI                          -- missing on slave
+(KL10        :  14) SUB11.P11                        -- missing on slave
+(KL10        :  14) BPNT11.P11                       -- missing on slave
+(KL10        :  14) KLFLX1.P11                       -- missing on slave
+(KL10        :  14) KLDCU1.P11                       -- missing on slave
+(KL10        :  14) KLDCUT.P11                       -- missing on slave
+(KL10        :  14) BEG11.P11                        -- missing on slave
+(KL10        :  14) TECHLP.TXT                       -- missing on slave
+(KL10        :  14) CONVRT.SAI                       -- missing on slave
+(KL10        :  14) BINSUM.SAI                       -- missing on slave
+(KL10        :  14) BINSUM.SAV                       -- missing on slave
+(KL10        :  14) CONVRT.SAV                       -- missing on slave
+(KL10        :  14) M11CCL.SAI                       -- missing on slave
+(KL10        :  14) M11CCL.SAV                       -- missing on slave
+Checking host 32
+(KL10        :  32) RDIST.LOG      1 14-Nov-89 15:06 -- bad checksum PURWIG
+                           should be 16-Oct-89 18:07 NOCPUR  RD  NO
+(KL10        :  32) 066TEL.OUT                       -- missing on slave
+(KL10        :  32) 066TEL.COM                       -- missing on slave
+
+End of SAIL execution
+.copy rdist.log,rdist.out
+
+.mung findit,rdist.out
+
+FINDIT.TEC V5 - Clean up log from MHX+(SPL)FINDIT and sort by file name
+121
+R SORT
+rdist.out=rdist.out/R80/K21.10/K54.6/K1.20
+SORTED 121 RECORDS
+
+EXIT
+
+.copy rdist.log,rdist.Tuesday
+
+.; System X17 has only RDIST.* files
+.rdist rdist.*/host:14,17,32,33
+Master host: 32
+10 files on master system.
+Slave hosts: 14,17,32,33
+Checking host 14
+(KL10        :  14) RDIST.SAT                        -- missing on slave
+(KL10        :  14) RDIST.SUN                        -- missing on slave
+(KL10        :  14) RDIST.FRI                        -- missing on slave
+(KL10        :  14) RDIST.OUT                        -- missing on slave
+(KL10        :  14) RDIST.TUE                        -- missing on slave
+(KL10        :  14) RDIST.MON                        -- missing on slave
+(KL10        :  14) RDIST.THU                        -- missing on slave
+(KL10        :  14) RDIST.LOG                        -- missing on slave
+(KL10        :  14) RDIST.WED                        -- missing on slave
+(KL10        :  14) RDIST.CTL                        -- missing on slave
+Checking host 17
+(KL10        :  17) RDIST.OUT      2 16-Oct-89 18:07 -- bad checksum GORFUD
+                           should be 14-Nov-89 15:16 XAFGUC  ALL  RD  NO
+(KL10        :  17) RDIST.TUE      2 13-Oct-89 18:09 -- bad checksum HUNLUQ
+                           should be 14-Nov-89 15:16 QUVZOX  ALL  RD  NO
+(KL10        :  17) RDIST.LOG      3 16-Oct-89 18:07 -- bad checksum WEYKAC
+                           should be 14-Nov-89 15:06 COQYAX  ALL  RD  NO
+Checking host 32
+(KL10        :  32) RDIST.LOG      1 14-Nov-89 15:06 -- bad checksum LODMIV
+                           should be 14-Nov-89 15:06 COQYAX  ALL  RD  NO
+Checking host 33
+(KL10        :  33) RDIST.LOG      3 16-Oct-89 18:07 -- bad checksum NOCPUR
+                           should be 14-Nov-89 15:06 COQYAX  ALL  RD  NO
+(KL10        :  33) RDIST.TUE      2 10-Oct-89 18:09 -- bad checksum HUNLUQ
+                           should be 14-Nov-89 15:16 QUVZOX  ALL  RD  NO
+(KL10        :  33) RDIST.OUT      2 16-Oct-89 18:07 -- bad checksum GORFUD
+                           should be 14-Nov-89 15:16 XAFGUC  ALL  RD  NO
+Starting TELECOPY
+
+: 
+: 
+: 
+COPY STARTING
+
+(KL10:32)RDIST.SAT COPIED TO (KL10:14)RDIST.SAT
+
+2304 (940) CHARS. TRANSMITTED
+
+: 
+COPY STARTING
+
+(KL10:32)RDIST.SUN COPIED TO (KL10:14)RDIST.SUN
+
+2304 (943) CHARS. TRANSMITTED
+
+: 
+COPY STARTING
+
+(KL10:32)RDIST.FRI COPIED TO (KL10:14)RDIST.FRI
+
+2304 (937) CHARS. TRANSMITTED
+
+: 
+COPY STARTING
+
+(KL10:32)RDIST.OUT COPIED TO (KL10:14)RDIST.OUT
+
+8388 (4504) CHARS. TRANSMITTED
+
+: 
+COPY STARTING
+
+(KL10:32)RDIST.TUE COPIED TO (KL10:14)RDIST.TUE
+
+9216 (6102) CHARS. TRANSMITTED
+
+: 
+COPY STARTING
+
+(KL10:32)RDIST.MON COPIED TO (KL10:14)RDIST.MON
+
+2304 (932) CHARS. TRANSMITTED
+
+: 
+COPY STARTING
+
+(KL10:32)RDIST.THU COPIED TO (KL10:14)RDIST.THU
+
+2304 (1139) CHARS. TRANSMITTED
+
+: 
+COPY STARTING
+                                                                                                                                                                                                                                                                                                                             @o:
