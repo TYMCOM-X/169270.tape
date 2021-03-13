@@ -1,0 +1,31 @@
+.:define $SUBSTITUTION=$TRUE
+RUN (MPL)MHX	;Thursday
+hosts: 10S
+commands (end with ctrl-D):
+DIR (JMS)FNDBAD.RPT,SZRPT.LOG/ALPHA
+TYPE (JMS)FNDBAD.RPT
+:SEND CHAR 4
+record? N
+14:
+.DIR (JMS)FNDBAD.RPT,SZRPT.LOG/ALPHA
+FNDBAD  RPT       1  13-NOV-90  730    ALL RD  RD         0          
+SZRPT   LOG       3  13-NOV-90   48    ALL RD  NO      1024          
+.TYPE (JMS)FNDBAD.RPT
+EXIT
+.
+17: cannot build circuit
+22: cannot build circuit
+23:
+.DIR (JMS)FNDBAD.RPT,SZRPT.LOG/ALPHA
+FNDBAD  RPT       1   3-JAN-91  730    ALL RD  RD         0          
+SZRPT   LOG      69   3-JAN-91   45    ALL RD  NO     34588          
+.TYPE (JMS)FNDBAD.RPT
+EXIT
+.
+25:
+	
+	DAYTIME
+	PSP
+	COPY FNDALL.LOG,FNDALL.\$WEEKDAY\
+
+; Req #7203 aborted - time limit exceeded at line 7
