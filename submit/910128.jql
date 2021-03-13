@@ -1,0 +1,75 @@
+00:00:14 S 28-Jan-91
+00:05:04 S -S- run #3 job 3 Req #7489  Running DSK:(MAIL)MAILER.SAV
+00:05:09 S -R- run #3 job 3 Done-End <0>
+01:05:04 S -S- run #3 job 3 Req #7490  Running DSK:(MAIL)MAILER.SAV
+01:05:09 S -R- run #3 job 3 Done-End <0>
+02:05:04 S -S- run #3 job 3 Req #7491  Running DSK:(MAIL)MAILER.SAV
+02:05:09 S -R- run #3 job 3 Done-End <0>
+03:00:14 S 28-Jan-91
+03:05:04 S -S- run #3 job 3 Req #7492  Running DSK:(MAIL)MAILER.SAV
+03:05:09 S -R- run #3 job 3 Done-End <0>
+04:05:04 S -S- run #3 job 3 Req #7493  Running DSK:(MAIL)MAILER.SAV
+04:05:09 S -R- run #3 job 3 Done-End <0>
+05:05:04 S -S- run #3 job 3 Req #7494  Running DSK:(MAIL)MAILER.SAV
+05:05:09 S -R- run #3 job 3 Done-End <0>
+06:00:14 S 28-Jan-91
+06:05:04 S -S- run #3 job 3 Req #7495  Running DSK:(MAIL)MAILER.SAV
+06:05:09 S -R- run #3 job 3 Done-End <0>
+07:05:05 S -S- run #3 job 3 Req #7496  Running DSK:(MAIL)MAILER.SAV
+07:05:09 S -R- run #3 job 3 Done-End <0>
+08:05:05 S -S- run #3 job 3 Req #7497  Running DSK:(MAIL)MAILER.SAV
+08:05:09 S -R- run #3 job 3 Done-End <0>
+08:45:05 S -S- stream #1 Req #7473 DSK:(JMS)SZRPTX.LOG=DSK:(JMS)SZRPTX.CTL
+08:45:15 S Processor status JSU EXECX Setup in frame 3
+08:45:16 P Waiting for interlock
+08:45:17 P Got interlock
+08:45:17 P EXECX Job Processor %1(226) starting in frame 3
+08:45:18 S Starting job processor in frame 3
+08:45:18 P Stream #1 Req #7473 DSK:(JMS)SZRPTX.LOG=DSK:(JMS)SZRPTX.CTL
+08:51:49 P Stream #1 Req #7473 * completed *
+08:51:50 S -R- stream #1 Done-End <0>
+09:00:19 S 28-Jan-91
+09:05:04 S -S- run #3 job 6 Req #7498  Running DSK:(MAIL)MAILER.SAV
+09:05:14 S -R- run #3 job 6 Done-End <0>
+09:07:20 P Signing off.
+10:05:01 S -S- run #3 job 3 Req #7500  Running DSK:(MAIL)MAILER.SAV
+10:05:05 S -R- run #3 job 3 Done-End <0>
+11:05:01 S -S- run #3 job 3 Req #7501  Running DSK:(MAIL)MAILER.SAV
+11:05:05 S -R- run #3 job 3 Done-End <0>
+12:00:20 S 28-Jan-91
+12:05:00 S -S- run #3 job 3 Req #7502  Running DSK:(MAIL)MAILER.SAV
+12:05:05 S -R- run #3 job 3 Done-End <0>
+13:05:01 S -S- run #3 job 3 Req #7503  Running DSK:(MAIL)MAILER.SAV
+13:05:05 S -R- run #3 job 3 Done-End <0>
+14:05:01 S -S- run #3 job 3 Req #7504  Running DSK:(MAIL)MAILER.SAV
+14:05:05 S -R- run #3 job 3 Done-End <0>
+15:00:20 S 28-Jan-91
+15:05:00 S -S- run #3 job 3 Req #7505  Running DSK:(MAIL)MAILER.SAV
+15:05:05 S -R- run #3 job 3 Done-End <0>
+15:30:04 S -S- stream #1 Req #7481 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+15:30:13 S Processor status JSU EXECX Setup in frame 3
+15:30:16 S Starting job processor in frame 3
+XECX Job Processor %1(226) starting in frame 3
+15:30:17 P Stream #1 Req #7481 DSK:(JMS)FNDBAD.LOG=DSK:(JMS)FNDBAD.CTL
+15:31:30 P Stream #1 Req #7481 * completed *
+15:31:31 S -R- stream #1 Done-End <0>
+15:47:16 P Signing off.
+16:05:01 S -S- run #3 job 3 Req #7506  Running DSK:(MAIL)MAILER.SAV
+16:05:06 S -R- run #3 job 3 Done-End <0>
+17:05:01 S -S- run #3 job 3 Req #7508  Running DSK:(MAIL)MAILER.SAV
+17:05:06 S -R- run #3 job 3 Done-End <0>
+18:00:16 S 28-Jan-91
+18:05:01 S -S- run #3 job 3 Req #7509  Running DSK:(MAIL)MAILER.SAV
+18:05:05 S -R- run #3 job 3 Done-End <0>
+19:05:01 S -S- run #3 job 3 Req #7510  Running DSK:(MAIL)MAILER.SAV
+19:05:06 S -R- run #3 job 3 Done-End <0>
+20:05:01 S -S- run #3 job 3 Req #7511  Running DSK:(MAIL)MAILER.SAV
+20:05:06 S -R- run #3 job 3 Done-End <0>
+21:00:16 S 28-Jan-91
+21:05:01 S -S- run #3 job 3 Req #7512  Running DSK:(MAIL)MAILER.SAV
+21:05:06 S -R- run #3 job 3 Done-End <0>
+22:05:01 S -S- run #3 job 3 Req #7513  Running DSK:(MAIL)MAILER.SAV
+22:05:06 S -R- run #3 job 3 Done-End <0>
+23:05:02 S -S- run #3 job 6 Req #7514  Running DSK:(MAIL)MAILER.SAV
+23:05:07 S -R- run #3 job 6 Done-End <0>
+00:00:17 S 29-Jan-91
