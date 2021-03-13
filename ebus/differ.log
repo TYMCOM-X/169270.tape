@@ -1,0 +1,289 @@
+!DIFFER (TYMNET)ND2100.TYM,(EBUS)ND2100.TYM/SPAC/LOW 1
+
+1)1	NSLOT   EQ      2               :  NO. OF SLOTS TO CONNECT
+1)	NLU     EQ      $A 3            :  MAX. NO. OF LOGICAL UNITS/SLOT
+****
+2)1	NSLOT   EQ      6               :  NO. OF SLOTS TO CONNECT
+2)	NLU     EQ      $A 3            :  MAX. NO. OF LOGICAL UNITS/SLOT
+**************
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST  EQ      1               :** Required by patch to REBUILD **
+**************
+1)1	S0CORE  EQ      $A 350
+1)	NLUS0   EQ      $A 3
+****
+2)1	S0CORE  EQ      $A 250          : MUST BE AT LEASE 237
+2)	NLUS0   EQ      $A 3
+**************
+1)1	S1CORE  EQ      $A 266
+1)	S1LIC   EQ      TL.AUX
+****
+2)1	S1CORE  EQ      $A 10           : MUST BE AT LEAST 266 IF EBDUMP IS SET
+2)	S1LIC   EQ      TL.AUX
+**************
+1)1	S2CORE  EQ      $A 100
+1)	S2LIC   EQ      0
+****
+2)1	S2CORE  EQ      $A 16
+2)	S2LIC   EQ      0
+**************
+1)1	        END
+****
+2)1	:       SLOT 3 - JOE'S TEST SLOT
+2)	S3CORE  EQ      $A 20
+2)	S3LIC   EQ      0
+2)	NLUS3   EQ      0
+2)	:       SLOT 4 - CARL'S TEST SLOT
+2)	S4CORE  EQ      $A 20
+2)	S4LIC   EQ      0
+2)	NLUS4   EQ      0
+2)	:       SLOT 5 - OSMAN'S TEST SLOT
+2)	S5CORE  EQ      $A 20
+2)	S5LIC   EQ      0
+2)	NLUS5   EQ      0
+2)	:       SLOT 6 - BIG SLOT
+2)	S6CORE  EQ      $A 20+512       : 8 SEGMENTS WORTH OF BUFFER
+2)	S6LIC   EQ      0
+2)	NLUS6   EQ      0
+2)	        END
+**************
+
+Files are different
+
+
+!DIFFER (TYMNET)ND2107.TYM,(EBUS)ND2107.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYMNET)ND2332.TYM,(EBUS)ND2332.TYM/SPAC/LOW 1
+
+
+Input error: "ND2332.TYM" file not found
+
+
+!DIFFER (TYMNET)ND2333.TYM,(EBUS)ND2333.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYMNET)ND3115.TYM,(EBUS)ND3115.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYMNET)ND3374.TYM,(EBUS)ND3374.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYMNET)ND4200.TYM,(EBUS)ND4200.TYM/SPAC/LOW 1
+
+
+Input error: "ND4200.TYM" file not found
+
+
+!DIFFER (TYMNET)ND4274.TYM,(EBUS)ND4274.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYMNET)ND4613.TYM,(EBUS)ND4613.TYM/SPAC/LOW 1
+
+
+Input error: "ND4613.TYM" file not found
+
+
+!DIFFER (TYMNET)ND4725.TYM,(EBUS)ND4725.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND5577.TYM,(EBUS)ND5577.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND6415.TYM,(EBUS)ND6415.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND6716.TYM,(EBUS)ND6716.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND6720.TYM,(EBUS)ND6720.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND6721.TYM,(EBUS)ND6721.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND6722.TYM,(EBUS)ND6722.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND7004.TYM,(EBUS)ND7004.TYM/SPAC/LOW 1
+
+1)1	:       ISIS-II - T-II - DEFINITION PARAMETERS - 15-FEB-89  LSR
+1)	:       KERNEL CODE: 7.03       NODE CODE: 5.22
+****
+2)1	:       ISIS-II - T-II - DEFINITION PARAMETERS - 22-Aug-88  JMS
+2)	:       KERNEL CODE: 7.03       NODE CODE: 5.22
+**************
+1)1	:       ORDER #: 47582W.DA
+1)	:       LOAD DATE: 15-FEB-89
+1)	:       PARAMETERS WITH ':*' ARE DEFAULTED TO ZERO (0) IF NOT PRESENT.
+****
+2)1	:       ORDER #: 5.22 Deployment
+2)	:       LOAD DATE: 22-Aug-88
+2)	:       PARAMETERS WITH ':*' ARE DEFAULTED TO ZERO (0) IF NOT PRESENT.
+**************
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+1)1	P1SIZE	EQ	$0 0C00		: Increase size of PATCH1 area
+1)	PHSIZE	EQ	$0 0300		: More patch stuff
+1)		END
+****
+2)1		END
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND7021.TYM,(EBUS)ND7021.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)ND7165.TYM,(EBUS)ND7165.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!DIFFER (TYM5)N10350.TYM,(EBUS)ND0350.TYM/SPAC/LOW 1
+
+1)1	REBTST	EQ	1		:** Required by patch to REBUILD **
+****
+2)1	P1SIZE	EQ	$0 800		: Increase size of PATCH1 area
+2)	PHSIZE	EQ	$0 400		: More patch stuff
+2)	REBTST	EQ	1		:** Required by patch to REBUILD **
+**************
+
+Files are different
+
+
+!LOGOUT
+44.06 tru
+terminal time: 0:03:58
